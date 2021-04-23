@@ -6,11 +6,11 @@ using UnityEngine;
 public class OnClickScript : MonoBehaviour
 {
     
-    public List<Action> functionList;
+    public List<Action> functionList = new List<Action>();
+    public List<Action> hoverFuncs = new List<Action>();
 
     void Start()
     {
-        functionList = new List<Action>();
     }
 
     // Update is called once per frame
@@ -22,6 +22,12 @@ public class OnClickScript : MonoBehaviour
     public void Clicked()
     {
         foreach (Action func in functionList)
+            func();
+    }
+
+    public void OnHover()
+    {
+        foreach (Action func in hoverFuncs)
             func();
     }
 }
