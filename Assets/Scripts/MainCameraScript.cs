@@ -24,7 +24,7 @@ public class MainCameraScript : MonoBehaviour
             OnClickScript clickScript = hit.collider.gameObject.GetComponent<OnClickScript>();
             if (clickScript)
             {
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButtonUp(0))
                     clickScript.Clicked();
 
                 clickScript.OnHover();

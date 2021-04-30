@@ -15,12 +15,14 @@ public class MapLocationScript : MonoBehaviour
     private float lastHoverTime;
     private MapQuestion myQuestion;
 
+    private MapQuestionManager questionManager;
+
     // Start is called before the first frame update
     void Start()
     {
         OnClickScript mouseScript = gameObject.GetComponent<OnClickScript>();
-        mouseScript.hoverFuncs.Add(OnHover);
-        mouseScript.functionList.Add(OnClick);
+        mouseScript.hoverFunctionList.Add(OnHover);
+        mouseScript.clickFunctionList.Add(OnClick);
 
         iconObject = transform.GetChild(0).gameObject;
 
@@ -28,6 +30,8 @@ public class MapLocationScript : MonoBehaviour
         mySprite = iconObject.GetComponent<SpriteRenderer>();
         // mySprite.sprite = myIcon;
         iconAnimator.SetFloat("RandomTime", Random.Range(0.8f, 1.2f));
+
+        questionManager = GameObject.Find("QuestionHolder").GetComponent<MapQuestionManager>();
     }
 
     // Update is called once per frame
@@ -51,14 +55,8 @@ public class MapLocationScript : MonoBehaviour
     {
         iconAnimator.SetFloat("RandomTime", 0.0f);
         iconAnimator.SetTrigger("Click");
-        StartCoroutine(DisableDelay());
-    }
 
-    IEnumerator DisableDelay()
-    {
-        yield return new WaitForSeconds(0.5f);
-
-        Debug.Log("Stopd from playing");
+        questionManager.SpawnQuestion(myQuestion, this);
     }
 
     void OnHover()
@@ -75,5 +73,14 @@ public class MapLocationScript : MonoBehaviour
 
         if (Time.time - lastHoverTime > 0.2f)
             iconAnimator.SetBool("OnHover", false);
+    }
+
+    public void AnswerCallback(bool ansValue)
+    {
+        Debug.Log("Answer submited");
+        if (ansValue)
+            mySprite.sprite = GlobalVariables.iconSprites["right"];
+        else
+            mySprite.sprite = GlobalVariables.iconSprites["wrong"];
     }
 }

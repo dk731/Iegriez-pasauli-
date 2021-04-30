@@ -6,8 +6,8 @@ using UnityEngine;
 public class OnClickScript : MonoBehaviour
 {
     
-    public List<Action> functionList = new List<Action>();
-    public List<Action> hoverFuncs = new List<Action>();
+    public List<Action> clickFunctionList = new List<Action>();
+    public List<Action> hoverFunctionList = new List<Action>();
 
     void Start()
     {
@@ -21,13 +21,13 @@ public class OnClickScript : MonoBehaviour
 
     public void Clicked()
     {
-        foreach (Action func in functionList)
+        foreach (Action func in clickFunctionList)
             func();
     }
 
     public void OnHover()
     {
-        foreach (Action func in hoverFuncs)
+        foreach (Action func in hoverFunctionList)
             func();
     }
 }

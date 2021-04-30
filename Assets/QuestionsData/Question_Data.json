@@ -28,21 +28,21 @@
             "transportQuestionsList":[
                 {
                     "questionText": "Bumba Transport Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "USA1"
                 },
                 {
                     "questionText": "Bumba Transport Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Greenland"
                 },
                 {
                     "questionText": "Bumba Transport Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "China"
@@ -51,21 +51,21 @@
             "energyQuestionsList":[
                 {
                     "questionText": "Bumba Energy Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Denmark"
                 },
                 {
                     "questionText": "Bumba Energy Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "USA2"
                 },
                 {
                     "questionText": "Bumba Energy Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "France"
@@ -74,21 +74,21 @@
             "productQuestionsList":[
                 {
                     "questionText": "Bumba Product Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Italy"
                 },
                 {
                     "questionText": "Bumba Product Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Russia"
                 },
                 {
                     "questionText": "Bumba Product Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Australia"
@@ -97,21 +97,21 @@
             "tourismQuestionsList":[
                 {
                     "questionText": "Bumba Tourism Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Canada"
                 },
                 {
                     "questionText": "Bumba Tourism Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Latvia"
                 },
                 {
                     "questionText": "Bumba Tourism Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Africa"
@@ -120,21 +120,21 @@
             "wasteQuestionsList":[
                 {
                     "questionText": "Bumba Waste Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "USA3"
                 },
                 {
                     "questionText": "Bumba Waste Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Brazil"
                 },
                 {
                     "questionText": "Bumba Waste Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "India"
@@ -171,21 +171,21 @@
             "transportQuestionsList":[
                 {
                     "questionText": "Masina Transport Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "USA1"
                 },
                 {
                     "questionText": "Masina Transport Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Greenland"
                 },
                 {
                     "questionText": "Masina Transport Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "China"
@@ -194,21 +194,21 @@
             "energyQuestionsList":[
                 {
                     "questionText": "Masina Energy Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Denmark"
                 },
                 {
                     "questionText": "Masina Energy Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "USA2"
                 },
                 {
                     "questionText": "Masina Energy Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "France"
@@ -217,21 +217,21 @@
             "productQuestionsList":[
                 {
                     "questionText": "Masina Product Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Italy"
                 },
                 {
                     "questionText": "Masina Product Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Russia"
                 },
                 {
                     "questionText": "Masina Product Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Australia"
@@ -240,21 +240,21 @@
             "tourismQuestionsList":[
                 {
                     "questionText": "Masina Tourism Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Canada"
                 },
                 {
                     "questionText": "Masina Tourism Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Latvia"
                 },
                 {
                     "questionText": "Masina Tourism Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Africa"
@@ -263,21 +263,21 @@
             "wasteQuestionsList":[
                 {
                     "questionText": "Masina Waste Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "USA3"
                 },
                 {
                     "questionText": "Masina Waste Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Brazil"
                 },
                 {
                     "questionText": "Masina Waste Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "India"
@@ -314,21 +314,21 @@
             "transportQuestionsList":[
                 {
                     "questionText": "Austinas Transport Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "USA1"
                 },
                 {
                     "questionText": "Austinas Transport Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": false, "Answer2": true},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Greenland"
                 },
                 {
                     "questionText": "Transport Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "China"
@@ -337,21 +337,21 @@
             "energyQuestionsList":[
                 {
                     "questionText": "Austinas Energy Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Denmark"
                 },
                 {
                     "questionText": "Austinas Energy Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "USA2"
                 },
                 {
                     "questionText": "Austinas Energy Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "France"
@@ -360,21 +360,21 @@
             "productQuestionsList":[
                 {
                     "questionText": "Austinas Product Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Russia"
                 },
                 {
                     "questionText": "Austinas Product Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Italy"
                 },
                 {
                     "questionText": "Austinas Product Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Australia"
@@ -383,21 +383,21 @@
             "tourismQuestionsList":[
                 {
                     "questionText": "Austinas Tourism Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Canada"
                 },
                 {
                     "questionText": "Austinas Tourism Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Africa"
                 },
                 {
                     "questionText": "Austinas Tourism Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Latvia"
@@ -406,21 +406,21 @@
             "wasteQuestionsList":[
                 {
                     "questionText": "Austinas Waste Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "India"
                 },
                 {
                     "questionText": "Austinas Waste Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "USA3"
                 },
                 {
                     "questionText": "Austinas Waste Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Brazil"
@@ -457,21 +457,21 @@
             "transportQuestionsList":[
                 {
                     "questionText": "Longbords Transport Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Greenland"
                 },
                 {
                     "questionText": "Longbords Transport Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "USA1"
                 },
                 {
                     "questionText": "Longbords Transport Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "China"
@@ -480,21 +480,21 @@
             "energyQuestionsList":[
                 {
                     "questionText": "Longbords Energy Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Denmark"
                 },
                 {
                     "questionText": "Longbords Energy Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "France"
                 },
                 {
                     "questionText": "Longbords Energy Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "USA2"
@@ -503,21 +503,21 @@
             "productQuestionsList":[
                 {
                     "questionText": "Longbords Product Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Australia"
                 },
                 {
                     "questionText": "Longbords Product Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Italy"
                 },
                 {
                     "questionText": "Longbords Product Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Russia"
@@ -526,21 +526,21 @@
             "tourismQuestionsList":[
                 {
                     "questionText": "Longbords Tourism Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Africa"
                 },
                 {
                     "questionText": "Longbords Tourism Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Latvia"
                 },
                 {
                     "questionText": "Longbords Tourism Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Canada"
@@ -549,21 +549,21 @@
             "wasteQuestionsList":[
                 {
                     "questionText": "Longbords Waste Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "USA3"
                 },
                 {
                     "questionText": "Longbords Waste Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "India"
                 },
                 {
                     "questionText": "Longbords Waste Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Brazil"
@@ -600,21 +600,21 @@
             "transportQuestionsList":[
                 {
                     "questionText": "T-krekls Transport Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "USA1"
                 },
                 {
                     "questionText": "T-krekls Transport Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "China"
                 },
                 {
                     "questionText": "T-krekls Transport Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Greenland"
@@ -623,21 +623,21 @@
             "energyQuestionsList":[
                 {
                     "questionText": "T-krekls Energy Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "France"
                 },
                 {
                     "questionText": "T-krekls Energy Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "USA2"
                 },
                 {
                     "questionText": "T-krekls Energy Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Denmark"
@@ -646,21 +646,21 @@
             "productQuestionsList":[
                 {
                     "questionText": "T-krekls Product Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Italy"
                 },
                 {
                     "questionText": "T-krekls Product Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Australia"
                 },
                 {
                     "questionText": "T-krekls Product Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Russia"
@@ -669,21 +669,21 @@
             "tourismQuestionsList":[
                 {
                     "questionText": "T-krekls Tourism Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Latvia"
                 },
                 {
                     "questionText": "T-kreklsTourism Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Canada"
                 },
                 {
                     "questionText": "T-krekls Tourism Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Africa"
@@ -692,21 +692,21 @@
             "wasteQuestionsList":[
                 {
                     "questionText": "T-krekls Waste Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Brazil"
                 },
                 {
                     "questionText": "T-krekls Waste Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "USA3"
                 },
                 {
                     "questionText": "T-krekls Waste Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "India"
@@ -743,21 +743,21 @@
             "transportQuestionsList":[
                 {
                     "questionText": "Banans Transport Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "China"
                 },
                 {
                     "questionText": "Banans Transport Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Greenland"
                 },
                 {
                     "questionText": "Transport Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "USA1"
@@ -766,21 +766,21 @@
             "energyQuestionsList":[
                 {
                     "questionText": "Banans Energy Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Denmark"
                 },
                 {
                     "questionText": "Banans Energy Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "France"
                 },
                 {
                     "questionText": "Banans Energy Question text 3",
-                    "Answerlist": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "USA2"
@@ -789,21 +789,21 @@
             "productQuestionsList":[
                 {
                     "questionText": "Banans Product Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Italy"
                 },
                 {
                     "questionText": "Banans Product Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Russia"
                 },
                 {
                     "questionText": "Banans Product Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Australia"
@@ -812,21 +812,21 @@
             "tourismQuestionsList":[
                 {
                     "questionText": "Banans Tourism Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "Canada"
                 },
                 {
                     "questionText": "Banans Tourism Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Africa"
                 },
                 {
                     "questionText": "Banans Tourism Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Latvia"
@@ -835,21 +835,21 @@
             "wasteQuestionsList":[
                 {
                     "questionText": "Banans Waste Question text 1",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "Brazil"
                 },
                 {
                     "questionText": "Banans Waste Question text 2",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 1,
                     "locationName": "India"
                 },
                 {
                     "questionText": "Banans Waste Question text 3",
-                    "answerList": ["Answer1", "Answer2"],
+                    "answerList": {"Answer1": true, "Answer2": false},
                     "explanationText": "Explanation text",
                     "answerID": 0,
                     "locationName": "USA3"

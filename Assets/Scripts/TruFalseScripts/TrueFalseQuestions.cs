@@ -25,7 +25,6 @@ public class TrueFalseQuestions: MonoBehaviour
 
     private int questionsAmount = 5;
 
-    private float curAnimTime = -1.0f;
     private List<TrueFalseQuestion> tfQuestionList;
 
     void Start()

@@ -38,14 +38,14 @@ public class OnSpinClick : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var tmpDict = JsonConvert.DeserializeObject<List<ObjectClass>>(questionsFile.text);
+        var tmpDict = JsonConvert.DeserializeObject<List<ItemClass>>(questionsFile.text);
 
         int randObjInd = Random.Range(0, tmpDict.Count);
-        ObjectClass currentObj = tmpDict[randObjInd];
+        ItemClass currentObj = tmpDict[randObjInd];
 
         randItemIndex = Random.Range(0, 5); // TMP SOLUTION!!!!
 
-        foreach (int ind in genUniqueNumbers(0, tmpDict[randObjInd].tfQuestionsList.Count, 5))
+        foreach (int ind in GlobalVariables.genUniqueNumbers(0, tmpDict[randObjInd].tfQuestionsList.Count, 5))
             tfQuestionList.Add(currentObj.tfQuestionsList[ind]);
 
         FieldInfo[] fieldsList = currentObj.mapQuestions.GetType().GetFields();
@@ -56,37 +56,24 @@ public class OnSpinClick : MonoBehaviour
             GlobalVariables.iconSprites.Add(fieldsList[i].Name, Resources.Load<Sprite>(path));
             List<MapQuestion> currentList = (List<MapQuestion>)fieldsList[i].GetValue(currentObj.mapQuestions);
             List<MapQuestion> currentAddList = (List<MapQuestion>)mapQuestions.GetType().GetFields()[i].GetValue(mapQuestions);
-            List<int> randIndexList = genUniqueNumbers(0, currentList.Count, 3);
+            List<int> randIndexList = GlobalVariables.genUniqueNumbers(0, currentList.Count, 3);
 
             foreach (int j in randIndexList)
                 currentAddList.Add(currentList[j]);
         }
+
+        GlobalVariables.iconSprites.Add("right", Resources.Load<Sprite>("Earth/AnswerRightIcon"));
+        GlobalVariables.iconSprites.Add("wrong", Resources.Load<Sprite>("Earth/AnswerWrongIcon"));
 
         earthScript.myQuestions = mapQuestions;
 
         startAngle = Random.Range(0, 20) * 18.0f + 9.0f;
         trueFalseScript = GameObject.Find("SecondScene").GetComponent<TrueFalseQuestions>();
         myWheel.transform.rotation = Quaternion.Euler(new Vector3(startAngle, 90, -90));
-        gameObject.GetComponent<OnClickScript>().functionList.Add(onClick);
+        gameObject.GetComponent<OnClickScript>().clickFunctionList.Add(onClick);
         GlobalVariables.gameScore = 0;
     }
 
-    private List<int> genUniqueNumbers(int min, int max, int count)
-    {
-        List<int> returnList = new List<int>();
-        if (max - min < count)
-            return returnList;
-        
-        for (int i = 0; i < count; i++)
-        {
-            int randNum = Random.Range(min, max);
-            while (returnList.Contains(randNum))
-                randNum = randNum + 1 < max ? randNum + 1 : 0;
-            returnList.Add(randNum);
-        }
-
-        return returnList;
-    }
 
     // Update is called once per frame
     void Update()

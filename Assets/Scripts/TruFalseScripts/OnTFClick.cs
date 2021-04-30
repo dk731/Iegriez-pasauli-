@@ -14,8 +14,8 @@ public class OnTFClick: MonoBehaviour
     void Start()
     {
         OnClickScript tmpScript = gameObject.GetComponent<OnClickScript>();
-        tmpScript.functionList.Add(OnClick);
-        tmpScript.hoverFuncs.Add(OnHover);
+        tmpScript.clickFunctionList.Add(OnClick);
+        tmpScript.hoverFunctionList.Add(OnHover);
         myAnimator = gameObject.GetComponent<Animator>();
     }
 

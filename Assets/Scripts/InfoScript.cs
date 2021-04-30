@@ -8,7 +8,7 @@ public class InfoScript : MonoBehaviour
     void Start()
     {
         
-        gameObject.GetComponent<OnClickScript>().functionList.Add(onClick);
+        gameObject.GetComponent<OnClickScript>().clickFunctionList.Add(onClick);
     }
 
     // Update is called once per frame

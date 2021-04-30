@@ -19,7 +19,6 @@ public class QuestionScript : MonoBehaviour
     public bool inAnim = false;
 
     private MeshRenderer meshRenderer;
-    private bool receivedAnswer;
 
 
     void Start()
