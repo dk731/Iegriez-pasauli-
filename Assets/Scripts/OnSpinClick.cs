@@ -1,6 +1,7 @@
 using Newtonsoft.Json;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 
 public class OnSpinClick : MonoBehaviour
@@ -23,52 +24,68 @@ public class OnSpinClick : MonoBehaviour
 
     private TrueFalseQuestions trueFalseScript;
 
+    public EarthScript earthScript;
+
     int randItemIndex;
     public TextAsset questionsFile;
 
     private List<string> questionObjectsList = new List<string>();
     private List<TrueFalseQuestion> tfQuestionList = new List<TrueFalseQuestion>();
+    private MapQuestionHolder mapQuestions = new MapQuestionHolder();
 
     private float startAngle;
 
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.GetComponent<OnClickScript>().functionList.Add(onClick);
+        var tmpDict = JsonConvert.DeserializeObject<List<ObjectClass>>(questionsFile.text);
+
+        int randObjInd = Random.Range(0, tmpDict.Count);
+        ObjectClass currentObj = tmpDict[randObjInd];
+
+        randItemIndex = Random.Range(0, 5); // TMP SOLUTION!!!!
+
+        foreach (int ind in genUniqueNumbers(0, tmpDict[randObjInd].tfQuestionsList.Count, 5))
+            tfQuestionList.Add(currentObj.tfQuestionsList[ind]);
+
+        FieldInfo[] fieldsList = currentObj.mapQuestions.GetType().GetFields();
+
+        for (int i = 0; i < fieldsList.Length; i++)
+        {
+            string path = "Earth/" + fieldsList[i].Name.Substring(0, fieldsList[i].Name.Length - 13);
+            GlobalVariables.iconSprites.Add(fieldsList[i].Name, Resources.Load<Sprite>(path));
+            List<MapQuestion> currentList = (List<MapQuestion>)fieldsList[i].GetValue(currentObj.mapQuestions);
+            List<MapQuestion> currentAddList = (List<MapQuestion>)mapQuestions.GetType().GetFields()[i].GetValue(mapQuestions);
+            List<int> randIndexList = genUniqueNumbers(0, currentList.Count, 3);
+
+            foreach (int j in randIndexList)
+                currentAddList.Add(currentList[j]);
+        }
+
+        earthScript.myQuestions = mapQuestions;
+
+        startAngle = Random.Range(0, 20) * 18.0f + 9.0f;
         trueFalseScript = GameObject.Find("SecondScene").GetComponent<TrueFalseQuestions>();
+        myWheel.transform.rotation = Quaternion.Euler(new Vector3(startAngle, 90, -90));
+        gameObject.GetComponent<OnClickScript>().functionList.Add(onClick);
+        GlobalVariables.gameScore = 0;
+    }
 
-
-        Dictionary<string, List<TrueFalseQuestion>> tmpDict = JsonConvert.DeserializeObject<Dictionary<string, List<TrueFalseQuestion>>>(questionsFile.text);
-
-        List<string> tmpKeyList = new List<string>(tmpDict.Keys);
-        for (int i = 0; i < 5; i++)
+    private List<int> genUniqueNumbers(int min, int max, int count)
+    {
+        List<int> returnList = new List<int>();
+        if (max - min < count)
+            return returnList;
+        
+        for (int i = 0; i < count; i++)
         {
-            int tmpRand = Random.Range(0, tmpKeyList.Count);
-            while (questionObjectsList.Contains(tmpKeyList[tmpRand]))
-            {
-                tmpRand = Random.Range(0, tmpKeyList.Count);
-            }
-            questionObjectsList.Add(tmpKeyList[tmpRand]);
+            int randNum = Random.Range(min, max);
+            while (returnList.Contains(randNum))
+                randNum = randNum + 1 < max ? randNum + 1 : 0;
+            returnList.Add(randNum);
         }
 
-        randItemIndex = Random.Range(0, 5);
-
-        List<TrueFalseQuestion> tmpCurList = tmpDict[questionObjectsList[randItemIndex]];
-        HashSet<int> tmpIndexSet = new HashSet<int>();
-
-        for (int i = 0; i < 5; i++)
-        {
-            int tmpRand = Random.Range(0, tmpCurList.Count);
-            while (tmpIndexSet.Contains(tmpRand))
-            {
-                tmpRand = Random.Range(0, tmpKeyList.Count);
-            }
-            tfQuestionList.Add(tmpCurList[tmpRand]);
-        }
-
-        startAngle = Random.Range(0.0f, 360.0f);
-
-        myWheel.transform.rotation = Quaternion.Euler(new Vector3(startAngle - 69.5f, 90, -90));
+        return returnList;
     }
 
     // Update is called once per frame
@@ -84,7 +101,7 @@ public class OnSpinClick : MonoBehaviour
             if (curAnimationStep < animationSteps)
             {
                 curRotAndle += (myCustomFunc(curAnimationStep / (float)(animationSteps - 1)) / fullSumm) * fullRotationAngle;
-                myWheel.transform.rotation = Quaternion.Euler(new Vector3(curRotAndle + startAngle - 69.5f, 90, -90));
+                myWheel.transform.rotation = Quaternion.Euler(new Vector3(curRotAndle + startAngle, 90, -90));
                 curAnimationStep++;
             }
             else
@@ -98,7 +115,7 @@ public class OnSpinClick : MonoBehaviour
 
     IEnumerator NextStep()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1.0f);
 
         GameObject go = itemsHolder.GetChild(randItemIndex).GetChild(0).gameObject;
 
@@ -123,10 +140,13 @@ public class OnSpinClick : MonoBehaviour
         if (curAnimationStep == -1)
         {
             Debug.Log("Random item: " + randItemIndex);
-            int fullRotations = Random.Range(4, 10);
+            int fullRotations = Random.Range(2, 5);
+            int randSector = Random.Range(0, 4);
 
-            fullRotationAngle = randItemIndex * degressBetween + Random.Range(-0.4f, 0.4f) * degressBetween + fullRotations * 360 - startAngle;
-            animationSteps = Mathf.RoundToInt(Random.Range(5.0f, 8.0f) / Time.fixedDeltaTime);
+            float additionalAngle = -27.0f + randSector * 18.0f;
+
+            fullRotationAngle = randItemIndex * degressBetween + fullRotations * 360 - startAngle + additionalAngle;
+            animationSteps = Mathf.RoundToInt(Random.Range(6.0f, 9.0f) / Time.fixedDeltaTime);
 
             fullSumm = 0.0f;
 

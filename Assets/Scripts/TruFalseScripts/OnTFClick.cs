@@ -10,6 +10,7 @@ public class OnTFClick: MonoBehaviour
     private bool hoverTimeout = false;
     private float lastHoverTime = -1;
     private Animator myAnimator;
+
     void Start()
     {
         OnClickScript tmpScript = gameObject.GetComponent<OnClickScript>();
@@ -44,12 +45,8 @@ public class OnTFClick: MonoBehaviour
     void OnClick()
     {
         myAnimator.SetTrigger("On Click");
-        StartCoroutine(SubmitValue());
+        StartCoroutine(myQuestionScript.QuestionCallbackDelayed(myValue));
     }
 
-    IEnumerator SubmitValue()
-    {
-        yield return new WaitForSeconds(1.0f);
-        myQuestionScript.onAnswerSubmit(myValue);
-    }
+
 }
