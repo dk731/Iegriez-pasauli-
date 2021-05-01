@@ -31,7 +31,13 @@ public class EarthScript : MonoBehaviour
 
         foreach (FieldInfo fi in myQuestions.GetType().GetFields())
             foreach (MapQuestion mq in (List<MapQuestion>)fi.GetValue(myQuestions))
-                transform.Find(mq.locationName).GetComponent<MapLocationScript>().SetupQuestion(mq, GlobalVariables.iconSprites[fi.Name]);
+            {
+                GameObject currentObject = transform.Find(mq.locationName).gameObject;
+                currentObject.SetActive(true);
+                currentObject.GetComponent<MapLocationScript>().SetupQuestion(mq, GlobalVariables.iconSprites[fi.Name]);
+
+            }
+                
 
         Vector3 targetDirection = (transform.position - Camera.main.transform.position).normalized;
         Quaternion targetRotation = Quaternion.LookRotation(targetDirection);

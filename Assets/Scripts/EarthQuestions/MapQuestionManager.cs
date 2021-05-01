@@ -41,6 +41,7 @@ public class MapQuestionManager : MonoBehaviour
         foreach (GameObject go in currentAnswerList)
             Destroy(go);
         currentAnswerList.Clear();
+
         currentLocation = mls;
         currentQuestion = mp;
         questionText.text = currentQuestion.questionText;

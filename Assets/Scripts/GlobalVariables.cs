@@ -7,6 +7,7 @@ public class GlobalVariables
     public static int gameScore = 0;
     public static Dictionary<string, Sprite> iconSprites = new Dictionary<string, Sprite>();
     public static List<Mesh> randMeshList;
+    public static bool activeForClick = false;
     public static List<int> genUniqueNumbers(int min, int max, int count)
     {
         List<int> returnList = new List<int>();

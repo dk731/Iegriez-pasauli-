@@ -53,18 +53,24 @@ public class MapLocationScript : MonoBehaviour
 
     void OnClick()
     {
-        iconAnimator.SetFloat("RandomTime", 0.0f);
-        iconAnimator.SetTrigger("Click");
+        if (myQuestion != null)
+        {
+            iconAnimator.SetFloat("RandomTime", 0.0f);
+            iconAnimator.SetTrigger("Click");
 
-        questionManager.SpawnQuestion(myQuestion, this);
+            questionManager.SpawnQuestion(myQuestion, this);
+        }
     }
 
     void OnHover()
     {
-        iconAnimator.SetBool("OnHover", true);
-        lastHoverTime = Time.time;
+        if (myQuestion != null)
+        {
+            iconAnimator.SetBool("OnHover", true);
+            lastHoverTime = Time.time;
 
-        StartCoroutine(OnHoverDelay());
+            StartCoroutine(OnHoverDelay());
+        }
     }
 
     IEnumerator OnHoverDelay()

@@ -143,6 +143,9 @@ public class QuestionScript : MonoBehaviour
         noText.color = textColor;
         yesText.color = textColor;
         inAnim = false;
+
+
+        GlobalVariables.activeForClick = dir;
     }
 
 }

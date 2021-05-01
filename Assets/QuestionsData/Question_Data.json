@@ -2,453 +2,543 @@
     {
         "name": "Bumba",
         "tfQuestionsList":[
-            {
-                "text": "Bumba question 1 T",
-                "answer": true
-            },
-            {
-                "text": "Bumba question 2 F",
-                "answer": false
-            },
-            {
-                "text": "Bumba question 3 T",
-                "answer": true
-            },
-            {
-                "text": "Bumba question 4 F",
-                "answer": false
-            },
-            {
-                "text": "Bumba question 5 T",
-                "answer": true
-            }
+          {
+            "text": " Ar futbola bumbu var spēlēt basketbolu?",
+            "answer": false
+          },
+          {
+            "text": " Bumbu var ēst izsalkuma gadījumā?",
+            "answer": false
+          },
+          {
+            "text": "Futbola bumbu var nopirkt sporta preču veikalā?",
+            "answer": true
+          },
+          {
+            "text": "Futbola spēles laikā spēlētāji, izņemot vārtsargu, nedrīkst aizskart bumbu ar rokām?",
+            "answer": true
+          },
+          {
+            "text": "Ar futbola bumbu var sniegt pirmo neatliekamo palīdzību?",
+            "answer": false
+          }
         ],
         "mapQuestions":
         {
-            "transportQuestionsList":[
-                {
-                    "questionText": "Bumba Transport Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "USA1"
-                },
-                {
-                    "questionText": "Bumba Transport Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Greenland"
-                },
-                {
-                    "questionText": "Bumba Transport Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "China"
-                }
-            ],
-            "energyQuestionsList":[
-                {
-                    "questionText": "Bumba Energy Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Denmark"
-                },
-                {
-                    "questionText": "Bumba Energy Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "USA2"
-                },
-                {
-                    "questionText": "Bumba Energy Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "France"
-                }
-            ],
-            "productQuestionsList":[
-                {
-                    "questionText": "Bumba Product Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Italy"
-                },
-                {
-                    "questionText": "Bumba Product Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Russia"
-                },
-                {
-                    "questionText": "Bumba Product Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Australia"
-                }
-            ],
-            "tourismQuestionsList":[
-                {
-                    "questionText": "Bumba Tourism Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Canada"
-                },
-                {
-                    "questionText": "Bumba Tourism Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Latvia"
-                },
-                {
-                    "questionText": "Bumba Tourism Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Africa"
-                }
-            ],
-            "wasteQuestionsList":[
-                {
-                    "questionText": "Bumba Waste Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "USA3"
-                },
-                {
-                    "questionText": "Bumba Waste Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Brazil"
-                },
-                {
-                    "questionText": "Bumba Waste Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "India"
-                }
-            ]
+          "transportQuestionsList": [
+            {
+              "questionText": "Futbola bumbu",
+              "answerList": {
+                "var izmantot kā pārvietošanas līdzekl": false,
+                "nevar izmantot kā pārvietošanas līdzekli": true
+              },
+              "explanationText": "Futbola bumba ir paredzēta futbola spēlēšanai, pagaidām to vēl nav pārveidojusi par transporta līdzekļi.",
+              "locationName": "USA1"
+            },
+            {
+              "questionText": "Futbola bumbu",
+              "answerList": {
+                "var izmantot kā pārvietošanas līdzekl": false,
+                "nevar izmantot kā pārvietošanas līdzekli": true
+              },
+              "explanationText": "Futbola bumba ir paredzēta futbola spēlēšanai, pagaidām to vēl nav pārveidojusi par transporta līdzekļi.",
+              "locationName": "USA2"
+            },
+            {
+              "questionText": "Futbola bumbu",
+              "answerList": {
+                "var izmantot kā pārvietošanas līdzekl": false,
+                "nevar izmantot kā pārvietošanas līdzekli": true
+              },
+              "explanationText": "Futbola bumba ir paredzēta futbola spēlēšanai, pagaidām to vēl nav pārveidojusi par transporta līdzekļi.",
+              "locationName": "Greenland"
+            }
+          ],
+          "energyQuestionsList": [
+            {
+              "questionText": "Stadionā laukumā futbola laika",
+              "answerList": {
+                "tiek patērēta elektroenerģija": true,
+                "netiek patērēta elektroenerģij": false
+              },
+              "explanationText": "Spēlēs laikā futbolistiem ir svarīgi redzēt bumbu, lai spēle notiktu veiksmīgi, arī skatītājiem tribīnēs ir vēlme redzēt spēlēs laukumā notiekošo. Visām iepriekš minētām tiek patērēts liels elektroenerģijas daudzums ",
+              "locationName": "Brazil"
+            },
+            {
+              "questionText": "Stadionā laukumā futbola laika",
+              "answerList": {
+                "tiek patērēta elektroenerģija": true,
+                "netiek patērēta elektroenerģij": false
+              },
+              "explanationText": "Spēlēs laikā futbolistiem ir svarīgi redzēt bumbu, lai spēle notiktu veiksmīgi, arī skatītājiem tribīnēs ir vēlme redzēt spēlēs laukumā notiekošo. Visām iepriekš minētām tiek patērēts liels elektroenerģijas daudzums ",
+              "locationName": "Africa"
+            },
+            {
+              "questionText": "Stadionā laukumā futbola laika",
+              "answerList": {
+                "tiek patērēta elektroenerģija": true,
+                "netiek patērēta elektroenerģij": false
+              },
+              "explanationText": "Spēlēs laikā futbolistiem ir svarīgi redzēt bumbu, lai spēle notiktu veiksmīgi, arī skatītājiem tribīnēs ir vēlme redzēt spēlēs laukumā notiekošo. Visām iepriekš minētām tiek patērēts liels elektroenerģijas daudzums ",
+              "locationName": "Italy"
+            }
+          ],
+          "productQuestionsList": [
+            {
+              "questionText": "Pārtikas veikalos",
+              "answerList": {
+                "eksistē ēdamas futbolu bumba": true,
+                "nav iespējams nopirkt ēdamas bumba": false
+              },
+              "explanationText": "Mūsdienu tehnoloģijas atļauj cilvēkiem ražot želejas konfektes ar dažādam garšām, formā, krāsā un tā tālāk. Pārtikas veikalā var sastapt arī futbola bumbas želejas konfektes",
+              "locationName": "Russia"
+            },
+            {
+              "questionText": "Pārtikas veikalos",
+              "answerList": {
+                "eksistē ēdamas futbolu bumba": true,
+                "nav iespējams nopirkt ēdamas bumba": false
+              },
+              "explanationText": "Mūsdienu tehnoloģijas atļauj cilvēkiem ražot želejas konfektes ar dažādam garšām, formā, krāsā un tā tālāk. Pārtikas veikalā var sastapt arī futbola bumbas želejas konfektes",
+              "locationName": "Australia"
+            },
+            {
+              "questionText": "Pārtikas veikalos",
+              "answerList": {
+                "eksistē ēdamas futbolu bumba": true,
+                "nav iespējams nopirkt ēdamas bumba": false
+              },
+              "explanationText": "Mūsdienu tehnoloģijas atļauj cilvēkiem ražot želejas konfektes ar dažādam garšām, formā, krāsā un tā tālāk. Pārtikas veikalā var sastapt arī futbola bumbas želejas konfektes",
+              "locationName": "China"
+            }
+          ],
+          "tourismQuestionsList": [
+            {
+              "questionText": "Skolēni dabā var",
+              "answerList": {
+                "slikti pavadīt laiku ": false,
+                "lieliski izklaidēties, spēlējot ar futbola bumb": true
+              },
+              "explanationText": "Skolēniem ir rekomendēts dienas laikā iziet ārā. Futbola bumba dod viņiem iespēju pārgājienu svaigā gaisā pārveidot par lielisku izkustēšanos",
+              "locationName": "Singapore"
+            },
+            {
+              "questionText": "Skolēni dabā var",
+              "answerList": {
+                "slikti pavadīt laiku ": false,
+                "lieliski izklaidēties, spēlējot ar futbola bumb": true
+              },
+              "explanationText": "Skolēniem ir rekomendēts dienas laikā iziet ārā. Futbola bumba dod viņiem iespēju pārgājienu svaigā gaisā pārveidot par lielisku izkustēšanos",
+              "locationName": "Denmark"
+            },
+            {
+              "questionText": "Skolēni dabā var",
+              "answerList": {
+                "slikti pavadīt laiku ": false,
+                "lieliski izklaidēties, spēlējot ar futbola bumb": true
+              },
+              "explanationText": "Skolēniem ir rekomendēts dienas laikā iziet ārā. Futbola bumba dod viņiem iespēju pārgājienu svaigā gaisā pārveidot par lielisku izkustēšanos",
+              "locationName": "Latvia"
+            }
+          ],
+          "wasteQuestionsList": [
+            {
+              "questionText": "Futbola spēles laik",
+              "answerList": {
+                "var tikt izmesti atkritumi": true,
+                "nevar tikt izmesti atkritum": false
+              },
+              "explanationText": "Futbola spēlēs laika skatītāji, diemžēl, izmet atkritumus. Labi futbola apmeklētāji tādam nolūkam izmanto atkritumu miskastes, bet daži atstāj ēdiena iepakojumus tribīnēs.",
+              "locationName": "UAE"
+            },
+            {
+              "questionText": "Futbola spēles laik",
+              "answerList": {
+                "var tikt izmesti atkritumi": true,
+                "nevar tikt izmesti atkritum": false
+              },
+              "explanationText": "Futbola spēlēs laika skatītāji, diemžēl, izmet atkritumus. Labi futbola apmeklētāji tādam nolūkam izmanto atkritumu miskastes, bet daži atstāj ēdiena iepakojumus tribīnēs.",
+              "locationName": "France"
+            },
+            {
+              "questionText": "Futbola spēles laik",
+              "answerList": {
+                "var tikt izmesti atkritumi": true,
+                "nevar tikt izmesti atkritum": false
+              },
+              "explanationText": "Futbola spēlēs laika skatītāji, diemžēl, izmet atkritumus. Labi futbola apmeklētāji tādam nolūkam izmanto atkritumu miskastes, bet daži atstāj ēdiena iepakojumus tribīnēs.",
+              "locationName": "Canada"
+            }
+          ]
         }
     },
     {
         "name": "Masina",
         "tfQuestionsList":[
-            {
-                "text": "Masina question 1 F",
-                "answer": false
-            },
-            {
-                "text": "Masina question 2 T",
-                "answer": false
-            },
-            {
-                "text": "Masina question 3 T",
-                "answer": true
-            },
-            {
-                "text": "Masina question 4 F",
-                "answer": false
-            },
-            {
-                "text": "Masina question 5 F",
-                "answer": false
-            }
+          {
+            "text": "Lai braukt ar automobili, to vajag uzlādēt vai to bāku nepieciešams piepildīt ar degvielu?",
+            "answer": true
+          },
+          {
+            "text": "Mašīnu nekad nevajag remontēt, jo to ražo no izturīgiem materiāliem?",
+            "answer": false
+          },
+          {
+            "text": "Automobiļa riepu galvenā sastāvdaļa ir plastmasa?",
+            "answer": true
+          },
+          {
+            "text": "Braucot ar mašīnu, nepieciešams ievērot drošības pasākumus: vadītājam un katram pasažierim vajag piesprādzēt drošības jostu?",
+            "answer": true
+          },
+          {
+            "text": "Lai braukt ar automašīnu pietiek ar laivas vai velosipēda tiesībām?",
+            "answer": false
+          }
         ],
         "mapQuestions":
         {
-            "transportQuestionsList":[
-                {
-                    "questionText": "Masina Transport Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "USA1"
-                },
-                {
-                    "questionText": "Masina Transport Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Greenland"
-                },
-                {
-                    "questionText": "Masina Transport Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "China"
-                }
-            ],
-            "energyQuestionsList":[
-                {
-                    "questionText": "Masina Energy Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Denmark"
-                },
-                {
-                    "questionText": "Masina Energy Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "USA2"
-                },
-                {
-                    "questionText": "Masina Energy Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "France"
-                }
-            ],
-            "productQuestionsList":[
-                {
-                    "questionText": "Masina Product Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Italy"
-                },
-                {
-                    "questionText": "Masina Product Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Russia"
-                },
-                {
-                    "questionText": "Masina Product Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Australia"
-                }
-            ],
-            "tourismQuestionsList":[
-                {
-                    "questionText": "Masina Tourism Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Canada"
-                },
-                {
-                    "questionText": "Masina Tourism Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Latvia"
-                },
-                {
-                    "questionText": "Masina Tourism Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Africa"
-                }
-            ],
-            "wasteQuestionsList":[
-                {
-                    "questionText": "Masina Waste Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "USA3"
-                },
-                {
-                    "questionText": "Masina Waste Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Brazil"
-                },
-                {
-                    "questionText": "Masina Waste Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "India"
-                }
-            ]
+          "transportQuestionsList": [
+            {
+              "questionText": "Mašīna ir",
+              "answerList": {
+                "ērts pārvietošanas līdzeklis": true,
+                "to nav iespējams pielāgot savam vajadzībām": false
+              },
+              "explanationText": "Mašīna ir transports, ar kuru palīdzību var ātri pārvietoties.",
+              "locationName": "USA1"
+            },
+            {
+              "questionText": "Mašīna ir",
+              "answerList": {
+                "ērts pārvietošanas līdzeklis": true,
+                "to nav iespējams pielāgot savam vajadzībām": false
+              },
+              "explanationText": "Mašīna ir transports, ar kuru palīdzību var ātri pārvietoties.",
+              "locationName": "USA2"
+            },
+            {
+              "questionText": "Mašīna ir",
+              "answerList": {
+                "ērts pārvietošanas līdzeklis": true,
+                "to nav iespējams pielāgot savam vajadzībām": false
+              },
+              "explanationText": "Mašīna ir transports, ar kuru palīdzību var ātri pārvietoties.",
+              "locationName": "USA3"
+            }
+          ],
+          "energyQuestionsList": [
+            {
+              "questionText": "Mūsdienu pasaulē mašīnas darboja",
+              "answerList": {
+                "tikai ar degvielas uzpildi": false,
+                "ar degvielas un elektroenerģijas uzlādi": true
+              },
+              "explanationText": "Mūsdienu pasaulē ir atklāti dažāda veida mašīnas iedarbināšanas vielas. Dažas mašīnas brauc ar benzīna vai dīzeļdegvielas uzpildi, daži- ar dabas gāzi, modernākas mašīnas izmanto degvielas vietā elektroenerģiju.",
+              "locationName": "Greenland"
+            },
+            {
+              "questionText": "Mūsdienu pasaulē mašīnas darboja",
+              "answerList": {
+                "tikai ar degvielas uzpildi": false,
+                "ar degvielas un elektroenerģijas uzlādi": true
+              },
+              "explanationText": "Mūsdienu pasaulē ir atklāti dažāda veida mašīnas iedarbināšanas vielas. Dažas mašīnas brauc ar benzīna vai dīzeļdegvielas uzpildi, daži- ar dabas gāzi, modernākas mašīnas izmanto degvielas vietā elektroenerģiju.",
+              "locationName": "Brazil"
+            },
+            {
+              "questionText": "Mūsdienu pasaulē mašīnas darboja",
+              "answerList": {
+                "tikai ar degvielas uzpildi": false,
+                "ar degvielas un elektroenerģijas uzlādi": true
+              },
+              "explanationText": "Mūsdienu pasaulē ir atklāti dažāda veida mašīnas iedarbināšanas vielas. Dažas mašīnas brauc ar benzīna vai dīzeļdegvielas uzpildi, daži- ar dabas gāzi, modernākas mašīnas izmanto degvielas vietā elektroenerģiju.",
+              "locationName": "Africa"
+            }
+          ],
+          "productQuestionsList": [
+            {
+              "questionText": "Pastāv tādi mašīnas veidi, kuros",
+              "answerList": {
+                "neko nedrīkst darīt ": false,
+                "var pagatavot ēdienu": true
+              },
+              "explanationText": "Ar laiku cilvēku ēšanas ieradumi mainījās, tāpēc 21.gadsimtā pieauga pieprasījums pēc street food ēdieniem. Tāda veida ēdienus bieži gatavo un pasniedz ar speciāli tam paredzētājiem treileriem.",
+              "locationName": "Italy"
+            },
+            {
+              "questionText": "Pastāv tādi mašīnas veidi, kuros",
+              "answerList": {
+                "neko nedrīkst darīt ": false,
+                "var pagatavot ēdienu": true
+              },
+              "explanationText": "Ar laiku cilvēku ēšanas ieradumi mainījās, tāpēc 21.gadsimtā pieauga pieprasījums pēc street food ēdieniem. Tāda veida ēdienus bieži gatavo un pasniedz ar speciāli tam paredzētājiem treileriem.",
+              "locationName": "India"
+            },
+            {
+              "questionText": "Pastāv tādi mašīnas veidi, kuros",
+              "answerList": {
+                "neko nedrīkst darīt ": false,
+                "var pagatavot ēdienu": true
+              },
+              "explanationText": "Ar laiku cilvēku ēšanas ieradumi mainījās, tāpēc 21.gadsimtā pieauga pieprasījums pēc street food ēdieniem. Tāda veida ēdienus bieži gatavo un pasniedz ar speciāli tam paredzētājiem treileriem.",
+              "locationName": "Russia"
+            }
+          ],
+          "tourismQuestionsList": [
+            {
+              "questionText": "Ar mašīnas palīdzību tūristi",
+              "answerList": {
+                "var ceļot": true,
+                "nevar ceļot, jo tas ir aizliegts": false
+              },
+              "explanationText": "Pašlaik tūristiem ir daudz opciju, lai ceļošana notiktu, braucot ar mašīnu",
+              "locationName": "Australia"
+            },
+            {
+              "questionText": "Ar mašīnas palīdzību tūristi",
+              "answerList": {
+                "var ceļot": true,
+                "nevar ceļot, jo tas ir aizliegts": false
+              },
+              "explanationText": "Pašlaik tūristiem ir daudz opciju, lai ceļošana notiktu, braucot ar mašīnu",
+              "locationName": "China"
+            },
+            {
+              "questionText": "Ar mašīnas palīdzību tūristi",
+              "answerList": {
+                "var ceļot": true,
+                "nevar ceļot, jo tas ir aizliegts": false
+              },
+              "explanationText": "Pašlaik tūristiem ir daudz opciju, lai ceļošana notiktu, braucot ar mašīnu",
+              "locationName": "Singapore"
+            }
+          ],
+          "wasteQuestionsList": [
+            {
+              "questionText": "Pēc mašīnas darbības, kura darbojas ar degvielas uzpildi, vide",
+              "answerList": {
+                "tiek piesārņota ar izplūdes gāzēm": true,
+                "netiek piesārņota ar izplūdes gāzēm": false
+              },
+              "explanationText": "Viens no galvenajiem degvielas trūkumiem, ka pēc braukšanas ar mašīnu apkārtējā vidē tiek izdalīti izplūdes gāzes.",
+              "locationName": "Denmark"
+            },
+            {
+              "questionText": "Pēc mašīnas darbības, kura darbojas ar degvielas uzpildi, vide",
+              "answerList": {
+                "tiek piesārņota ar izplūdes gāzēm": true,
+                "netiek piesārņota ar izplūdes gāzēm": false
+              },
+              "explanationText": "Viens no galvenajiem degvielas trūkumiem, ka pēc braukšanas ar mašīnu apkārtējā vidē tiek izdalīti izplūdes gāzes.",
+              "locationName": "Latvia"
+            },
+            {
+              "questionText": "Pēc mašīnas darbības, kura darbojas ar degvielas uzpildi, vide",
+              "answerList": {
+                "tiek piesārņota ar izplūdes gāzēm": true,
+                "netiek piesārņota ar izplūdes gāzēm": false
+              },
+              "explanationText": "Viens no galvenajiem degvielas trūkumiem, ka pēc braukšanas ar mašīnu apkārtējā vidē tiek izdalīti izplūdes gāzes.",
+              "locationName": "UAE"
+            }
+          ]
         }
     },
     {
         "name": "Austinas",
         "tfQuestionsList":[
-            {
-                "text": "Austinas question 1 F",
-                "answer": false
-            },
-            {
-                "text": "Austinas question 2 T",
-                "answer": true
-            },
-            {
-                "text": "Austinas question 3 F",
-                "answer": false
-            },
-            {
-                "text": "Austinas question 4 F",
-                "answer": false
-            },
-            {
-                "text": "Austinas question 5 T",
-                "answer": true
-            }
+          {
+            "text": "Bezvadu austiņas lietošanas laikā var izkrist no auss un pazaudēties?",
+            "answer": true
+          },
+          {
+            "text": "Bezvadu austiņas var mazgāt, ieteicams veļas mašīnā?",
+            "answer": false
+          },
+          {
+            "text": " Pirms lietošanas bezvadu austiņas nepieciešams uzlādēt?",
+            "answer": true
+          },
+          {
+            "text": "Austiņas ir lieliska rotaļlieta katram mājdzīvniekam un bērnam?",
+            "answer": false
+          },
+          {
+            "text": "Dotā ierīce savienojās ar telefonu ar Bluetooth palīdzību?",
+            "answer": true
+          }
         ],
         "mapQuestions":
         {
-            "transportQuestionsList":[
-                {
-                    "questionText": "Austinas Transport Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "USA1"
-                },
-                {
-                    "questionText": "Austinas Transport Question text 2",
-                    "answerList": {"Answer1": false, "Answer2": true},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Greenland"
-                },
-                {
-                    "questionText": "Transport Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "China"
-                }
-            ],
-            "energyQuestionsList":[
-                {
-                    "questionText": "Austinas Energy Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Denmark"
-                },
-                {
-                    "questionText": "Austinas Energy Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "USA2"
-                },
-                {
-                    "questionText": "Austinas Energy Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "France"
-                }
-            ],
-            "productQuestionsList":[
-                {
-                    "questionText": "Austinas Product Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Russia"
-                },
-                {
-                    "questionText": "Austinas Product Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Italy"
-                },
-                {
-                    "questionText": "Austinas Product Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Australia"
-                }
-            ],
-            "tourismQuestionsList":[
-                {
-                    "questionText": "Austinas Tourism Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Canada"
-                },
-                {
-                    "questionText": "Austinas Tourism Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Africa"
-                },
-                {
-                    "questionText": "Austinas Tourism Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Latvia"
-                }
-            ],
-            "wasteQuestionsList":[
-                {
-                    "questionText": "Austinas Waste Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "India"
-                },
-                {
-                    "questionText": "Austinas Waste Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "USA3"
-                },
-                {
-                    "questionText": "Austinas Waste Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Brazil"
-                }
-            ]
+          "transportQuestionsList": [
+            {
+              "questionText": "Transportēšanas laikā austiņas",
+              "answerList": {
+                "var sabojāt, jo tie nav pasargāti no skrāpējumiem": true,
+                "nav iespējams sabojāt, jo to materiāls ir pietiekami": false
+              },
+              "explanationText": "Vairums mūsdienu austiņu izgatavo no plastmasas, kurai piemīt labas īpašības. Neskatoties uz to, tos tomēr var sabojāt transportēšanās laika, sliktā iepakojuma dēļ.",
+              "locationName": "USA1"
+            },
+            {
+              "questionText": "Transportēšanas laikā austiņas",
+              "answerList": {
+                "var sabojāt, jo tie nav pasargāti no skrāpējumiem": true,
+                "nav iespējams sabojāt, jo to materiāls ir pietiekami": false
+              },
+              "explanationText": "Vairums mūsdienu austiņu izgatavo no plastmasas, kurai piemīt labas īpašības. Neskatoties uz to, tos tomēr var sabojāt transportēšanās laika, sliktā iepakojuma dēļ.",
+              "locationName": "USA2"
+            },
+            {
+              "questionText": "Transportēšanas laikā austiņas",
+              "answerList": {
+                "var sabojāt, jo tie nav pasargāti no skrāpējumiem": true,
+                "nav iespējams sabojāt, jo to materiāls ir pietiekami": false
+              },
+              "explanationText": "Vairums mūsdienu austiņu izgatavo no plastmasas, kurai piemīt labas īpašības. Neskatoties uz to, tos tomēr var sabojāt transportēšanās laika, sliktā iepakojuma dēļ.",
+              "locationName": "USA3"
+            }
+          ],
+          "energyQuestionsList": [
+            {
+              "questionText": "Klausoties mūziku ar bezvadu austiņiem, tos",
+              "answerList": {
+                "vajag lādēt, jo tie var izlādēties": true,
+                "nav nepieciešams uzlādēt, tie neizlādēsies": false
+              },
+              "explanationText": "Mūsdienu pasaulē bezvadu austiņas ir lieliska alternatīva parastajiem austiņām ar vadu savienojumu. Lai tie darbotos, nedrīkst aizmirst par to lādēšanu, jo to akumulators nav mūžīgs.",
+              "locationName": "Greenland"
+            },
+            {
+              "questionText": "Klausoties mūziku ar bezvadu austiņiem, tos",
+              "answerList": {
+                "vajag lādēt, jo tie var izlādēties": true,
+                "nav nepieciešams uzlādēt, tie neizlādēsies": false
+              },
+              "explanationText": "Mūsdienu pasaulē bezvadu austiņas ir lieliska alternatīva parastajiem austiņām ar vadu savienojumu. Lai tie darbotos, nedrīkst aizmirst par to lādēšanu, jo to akumulators nav mūžīgs.",
+              "locationName": "Brazil"
+            },
+            {
+              "questionText": "Klausoties mūziku ar bezvadu austiņiem, tos",
+              "answerList": {
+                "vajag lādēt, jo tie var izlādēties": true,
+                "nav nepieciešams uzlādēt, tie neizlādēsies": false
+              },
+              "explanationText": "Mūsdienu pasaulē bezvadu austiņas ir lieliska alternatīva parastajiem austiņām ar vadu savienojumu. Lai tie darbotos, nedrīkst aizmirst par to lādēšanu, jo to akumulators nav mūžīgs.",
+              "locationName": "Africa"
+            }
+          ],
+          "productQuestionsList": [
+            {
+              "questionText": "Bezvadu austiņu sastāvdaļas",
+              "answerList": {
+                "cilvēki lieto kā uztura bagātinātāju": false,
+                "nedrīkst lietot uzturā": true
+              },
+              "explanationText": " Doto ierīču ražošanai izmanto plastmasu, kura ir kaitīga cilvēka organismam. Gadījumā, ja cilvēks tos apēdis, viņš var saindēties. ",
+              "locationName": "Italy"
+            },
+            {
+              "questionText": "Bezvadu austiņu sastāvdaļas",
+              "answerList": {
+                "cilvēki lieto kā uztura bagātinātāju": false,
+                "nedrīkst lietot uzturā": true
+              },
+              "explanationText": " Doto ierīču ražošanai izmanto plastmasu, kura ir kaitīga cilvēka organismam. Gadījumā, ja cilvēks tos apēdis, viņš var saindēties. ",
+              "locationName": "India"
+            },
+            {
+              "questionText": "Bezvadu austiņu sastāvdaļas",
+              "answerList": {
+                "cilvēki lieto kā uztura bagātinātāju": false,
+                "nedrīkst lietot uzturā": true
+              },
+              "explanationText": " Doto ierīču ražošanai izmanto plastmasu, kura ir kaitīga cilvēka organismam. Gadījumā, ja cilvēks tos apēdis, viņš var saindēties. ",
+              "locationName": "Russia"
+            }
+          ],
+          "tourismQuestionsList": [
+            {
+              "questionText": "Visticamāk tūristi ilga pārgājiena laikā",
+              "answerList": {
+                "paņems austiņas sev līdzi": true,
+                "neņems, jo tie slikti ietekmēs to pārvietošanas": false
+              },
+              "explanationText": "Visticamāk ilga pārgājiena laikā tūrists paņems austiņas sev līdzi, jo tie spēs papildināt skaistus skatus ar skaitu mūziku. ",
+              "locationName": "Australia"
+            },
+            {
+              "questionText": "Visticamāk tūristi ilga pārgājiena laikā",
+              "answerList": {
+                "paņems austiņas sev līdzi": true,
+                "neņems, jo tie slikti ietekmēs to pārvietošanas": false
+              },
+              "explanationText": "Visticamāk ilga pārgājiena laikā tūrists paņems austiņas sev līdzi, jo tie spēs papildināt skaistus skatus ar skaitu mūziku. ",
+              "locationName": "China"
+            },
+            {
+              "questionText": "Visticamāk tūristi ilga pārgājiena laikā",
+              "answerList": {
+                "paņems austiņas sev līdzi": true,
+                "neņems, jo tie slikti ietekmēs to pārvietošanas": false
+              },
+              "explanationText": "Visticamāk ilga pārgājiena laikā tūrists paņems austiņas sev līdzi, jo tie spēs papildināt skaistus skatus ar skaitu mūziku. ",
+              "locationName": "Singapore"
+            }
+          ],
+          "wasteQuestionsList": [
+            {
+              "questionText": "Bezvadu austiņas, kuri pārstāja darbojies, vajag",
+              "answerList": {
+                "atstāt ielā uz soliņa": true,
+                "izmest atkritumu konteinerī, kurš ir paredzēts elektrotehnikai": false
+              },
+              "explanationText": "Bezvadu austiņas ir elektrotehnikas elements, kurš nepareizās šķirošanas rezultātā var draudēt videi. Pēc šīs ierīces sabojāšanas, to ir svarīgi izmest speciāla atkritumu konteinerī.",
+              "locationName": "Denmark"
+            },
+            {
+              "questionText": "Bezvadu austiņas, kuri pārstāja darbojies, vajag",
+              "answerList": {
+                "atstāt ielā uz soliņa": true,
+                "izmest atkritumu konteinerī, kurš ir paredzēts elektrotehnikai": false
+              },
+              "explanationText": "Bezvadu austiņas ir elektrotehnikas elements, kurš nepareizās šķirošanas rezultātā var draudēt videi. Pēc šīs ierīces sabojāšanas, to ir svarīgi izmest speciāla atkritumu konteinerī.",
+              "locationName": "Latvia"
+            },
+            {
+              "questionText": "Bezvadu austiņas, kuri pārstāja darbojies, vajag",
+              "answerList": {
+                "atstāt ielā uz soliņa": true,
+                "izmest atkritumu konteinerī, kurš ir paredzēts elektrotehnikai": false
+              },
+              "explanationText": "Bezvadu austiņas ir elektrotehnikas elements, kurš nepareizās šķirošanas rezultātā var draudēt videi. Pēc šīs ierīces sabojāšanas, to ir svarīgi izmest speciāla atkritumu konteinerī.",
+              "locationName": "France"
+            }
+          ]
         }
     },
     {
         "name": "Longbords",
         "tfQuestionsList":[
             {
-                "text": "Longbords question 1 T",
-                "answer": true
-            },
-            {
-                "text": "Longbords question 2 F",
+                "text": "Ikvienām Latvijas iedzīvotājam pieder longbords?",
                 "answer": false
             },
             {
-                "text": "Longbords question 3 T",
+                "text": "Lai pārvietoties ar longbordu nepieciešamas velosipēda vadītāja tiesības?",
+                "answer": false
+            },
+            {
+                "text": "Vidēja longborda svars ir 5 kg?",
                 "answer": true
             },
             {
-                "text": "Longbords question 4 T",
-                "answer": true
+                "text": "Pārvietojoties ar doto transporta līdzekļi, nav jāievēro ceļu satiksmes drošības noteikumus?",
+                "answer": false
             },
             {
-                "text": "Longbords question 5 T",
+                "text": "Longborda forma atgādina sērfinga dēļa formu?",
                 "answer": true
             }
         ],
@@ -456,260 +546,102 @@
         {
             "transportQuestionsList":[
                 {
-                    "questionText": "Longbords Transport Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Greenland"
+                    "questionText": "Pārvietošanās ar longbordu ir",
+                    "answerList": {"videi draudzīga": true, "nav videi draudzīga": false},
+                    "explanationText": "Lai pārvietoties ar longbordu nav nepieciešama degviela, cilvēks iesāk kustību ar kāju palīdzību. Tāds pārvietošanas veids neizraisa izplūdes gāzes un neietekmē gaisa kvalitāti.",
+                    "locationName": "USA2"
                 },
                 {
-                    "questionText": "Longbords Transport Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "USA1"
+                    "questionText": "Pārvietošanās ar longbordu ir",
+                    "answerList": {"videi draudzīga": true, "nav videi draudzīga": false},
+                    "explanationText": "Lai pārvietoties ar longbordu nav nepieciešama degviela, cilvēks iesāk kustību ar kāju palīdzību. Tāds pārvietošanas veids neizraisa izplūdes gāzes un neietekmē gaisa kvalitāti.",
+                    "locationName": "USA3"
                 },
-                {
-                    "questionText": "Longbords Transport Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "China"
+               {
+                    "questionText": "Pārvietošanās ar longbordu ir",
+                    "answerList": {"videi draudzīga": true, "nav videi draudzīga": false},
+                    "explanationText": "Lai pārvietoties ar longbordu nav nepieciešama degviela, cilvēks iesāk kustību ar kāju palīdzību. Tāds pārvietošanas veids neizraisa izplūdes gāzes un neietekmē gaisa kvalitāti.",
+                    "locationName": "Brazil"
                 }
             ],
             "energyQuestionsList":[
                 {
-                    "questionText": "Longbords Energy Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
+                    "questionText": "Longbords ir",
+                    "answerList": {"lādējamā ierīce": false, "nav lādējamā ierīce": true},
+                    "explanationText": "Pārvietošanai ir nepieciešams cilvēka spēks, un tāpēc lādēt to nav nepieciešams.",
                     "locationName": "Denmark"
                 },
                 {
-                    "questionText": "Longbords Energy Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "France"
+                    "questionText": "Longbords ir",
+                    "answerList": {"lādējamā ierīce": false, "nav lādējamā ierīce": true},
+                    "explanationText": "Pārvietošanai ir nepieciešams cilvēka spēks, un tāpēc lādēt to nav nepieciešams.",
+                    "locationName": "Africa"
                 },
                 {
-                    "questionText": "Longbords Energy Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "USA2"
+                    "questionText": "Longbords ir",
+                    "answerList": {"lādējamā ierīce": false, "nav lādējamā ierīce": true},
+                    "explanationText": "Pārvietošanai ir nepieciešams cilvēka spēks, un tāpēc lādēt to nav nepieciešams.",
+                    "locationName": "Italy"
                 }
             ],
             "productQuestionsList":[
                 {
-                    "questionText": "Longbords Product Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Australia"
+                    "questionText": "Longbords izgatavošanas procesā ir izmantoti tādi materiāli, kuru",
+                    "answerList": {"nevar ēst": true, "var lietot uzturā": false},
+                    "explanationText": " Dēļa pamatni izgatavo pārsvarā no karbona un koksnes, bet skrituļus - no alumīnija vai gumijas, ko cilvēki nelieto ikdienas uzturā.",
+                    "locationName": "India"
                 },
                 {
-                    "questionText": "Longbords Product Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Italy"
-                },
-                {
-                    "questionText": "Longbords Product Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
+                    "questionText": "Longbords izgatavošanas procesā ir izmantoti tādi materiāli, kuru",
+                    "answerList": {"nevar ēst": true, "var lietot uzturā": false},
+                    "explanationText": " Dēļa pamatni izgatavo pārsvarā no karbona un koksnes, bet skrituļus - no alumīnija vai gumijas, ko cilvēki nelieto ikdienas uzturā.",
                     "locationName": "Russia"
+                },
+                {
+                    "questionText": "Longbords izgatavošanas procesā ir izmantoti tādi materiāli, kuru",
+                    "answerList": {"nevar ēst": true, "var lietot uzturā": false},
+                    "explanationText": " Dēļa pamatni izgatavo pārsvarā no karbona un koksnes, bet skrituļus - no alumīnija vai gumijas, ko cilvēki nelieto ikdienas uzturā.",
+                    "locationName": "Australia"
                 }
             ],
             "tourismQuestionsList":[
                 {
-                    "questionText": "Longbords Tourism Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
+                    "questionText": "Pārvietošanās ar longbordu ir pievilcīga, jo",
+                    "answerList": {"Tas ir ātrs un ar to var pārvietoties pa dažādiem ceļa segumiem": true, "Tas ir lēns un dažādiem segumiem nepiemērots transports.": false},
                     "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Africa"
-                },
-                {
-                    "questionText": "Longbords Tourism Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Latvia"
-                },
-                {
-                    "questionText": "Longbords Tourism Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Canada"
-                }
-            ],
-            "wasteQuestionsList":[
-                {
-                    "questionText": "Longbords Waste Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "USA3"
-                },
-                {
-                    "questionText": "Longbords Waste Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "India"
-                },
-                {
-                    "questionText": "Longbords Waste Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Brazil"
-                }
-            ]
-        }
-    },
-    {
-        "name": "T-krekls",
-        "tfQuestionsList":[
-            {
-                "text": "T-krekls question F",
-                "answer": false
-            },
-            {
-                "text": "T-krekls question T",
-                "answer": true
-            },
-            {
-                "text": "T-krekls question T",
-                "answer": true
-            },
-            {
-                "text": "T-krekls question F",
-                "answer": false
-            },
-            {
-                "text": "T-krekls question F",
-                "answer": false
-            }
-        ],
-        "mapQuestions":
-        {
-            "transportQuestionsList":[
-                {
-                    "questionText": "T-krekls Transport Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "USA1"
-                },
-                {
-                    "questionText": "T-krekls Transport Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
                     "locationName": "China"
                 },
                 {
-                    "questionText": "T-krekls Transport Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
+                    "questionText": "Pārvietošanās ar longbordu ir pievilcīga, jo",
+                    "answerList": {"Tas ir ātrs un ar to var pārvietoties pa dažādiem ceļa segumiem": true, "Tas ir lēns un dažādiem segumiem nepiemērots transports.": false},
                     "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Greenland"
-                }
-            ],
-            "energyQuestionsList":[
-                {
-                    "questionText": "T-krekls Energy Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "France"
+                    "locationName": "Singapore"
                 },
                 {
-                    "questionText": "T-krekls Energy Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
+                    "questionText": "Pārvietošanās ar longbordu ir pievilcīga, jo",
+                    "answerList": {"Tas ir ātrs un ar to var pārvietoties pa dažādiem ceļa segumiem": true, "Tas ir lēns un dažādiem segumiem nepiemērots transports.": false},
                     "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "USA2"
-                },
-                {
-                    "questionText": "T-krekls Energy Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Denmark"
-                }
-            ],
-            "productQuestionsList":[
-                {
-                    "questionText": "T-krekls Product Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Italy"
-                },
-                {
-                    "questionText": "T-krekls Product Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Australia"
-                },
-                {
-                    "questionText": "T-krekls Product Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Russia"
-                }
-            ],
-            "tourismQuestionsList":[
-                {
-                    "questionText": "T-krekls Tourism Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Latvia"
-                },
-                {
-                    "questionText": "T-kreklsTourism Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Canada"
-                },
-                {
-                    "questionText": "T-krekls Tourism Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Africa"
+                    "locationName": "USA1"
                 }
             ],
             "wasteQuestionsList":[
                 {
-                    "questionText": "T-krekls Waste Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
+                    "questionText": "Longbordus izgatavo no tādiem materiāliem, kurus",
+                    "answerList": {"var pārstrādāt un tie neapdraud videi": true, "nevar pārstrādāt un šie materiāli ilgi sadalās apkārtējā vidē": false},
                     "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Brazil"
+                    "locationName": "Latvia"
                 },
                 {
-                    "questionText": "T-krekls Waste Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
+                    "questionText": "Longbordus izgatavo no tādiem materiāliem, kurus",
+                    "answerList": {"var pārstrādāt un tie neapdraud videi": true, "nevar pārstrādāt un šie materiāli ilgi sadalās apkārtējā vidē": false},
                     "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "USA3"
+                    "locationName": "UAE"
                 },
                 {
-                    "questionText": "T-krekls Waste Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
+                    "questionText": "Longbordus izgatavo no tādiem materiāliem, kurus",
+                    "answerList": {"var pārstrādāt un tie neapdraud videi": true, "nevar pārstrādāt un šie materiāli ilgi sadalās apkārtējā vidē": false},
                     "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "India"
+                    "locationName": "France"
                 }
             ]
         }
@@ -718,23 +650,23 @@
         "name": "Banans",
         "tfQuestionsList":[
             {
-                "text": "Banans question 1 F",
+                "text": "Viens Latvijas iedzīvotājs gadā apēd 4 banānus?",
                 "answer": false
             },
             {
-                "text": "Banans question 2 F",
-                "answer": false
-            },
-            {
-                "text": "Banans question 3 T",
+                "text": "Banānu mizas var izmantot kurpju spodrināšanai?",
                 "answer": true
             },
             {
-                "text": "Banans question 4 T",
+                "text": "Ēst vietējo nozīmē ēst Latvijā audzētus ābolus, nevis vietējā veikalā pirktus banānus?",
                 "answer": true
             },
             {
-                "text": "Banans question 5 T",
+                "text": "Banānu lielražošanā tiek patērēts vairāk agroķimikāliju kā jebkuras citas kultūras audzēšanā?",
+                "answer": true
+            },
+            {
+                "text": " Banānu mizas labvēlīgi ietekmē zobu emalju. Berzējiet zobus ar mizu divas minūtes un tie kļūs baltāki?",
                 "answer": true
             }
         ],
@@ -742,117 +674,114 @@
         {
             "transportQuestionsList":[
                 {
-                    "questionText": "Banans Transport Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "China"
-                },
-                {
-                    "questionText": "Banans Transport Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Greenland"
-                },
-                {
-                    "questionText": "Transport Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
+                    "questionText": "Banānu transportēšanai izmanto:",
+                    "answerList": {"kuģa kravas telpas vai arī jūras konteinerus": true, "velosipēdus un slidas": false},
+                    "explanationText": "Iepakoti kartona kastēs, banāni tiek ievietoti kuģa kravas telpās vai arī jūras konteineros. Ceļā tie vidēji pavada 20 dienas, tāpēc izmantot velosipēdus nav efektīvi.",
                     "locationName": "USA1"
+                },
+                {
+                    "questionText": "Banānu transportēšanai izmanto:",
+                    "answerList": {"kuģa kravas telpas vai arī jūras konteinerus": true, "velosipēdus un slidas": false},
+                    "explanationText": "Iepakoti kartona kastēs, banāni tiek ievietoti kuģa kravas telpās vai arī jūras konteineros. Ceļā tie vidēji pavada 20 dienas, tāpēc izmantot velosipēdus nav efektīvi.",
+                    "locationName": "USA2"
+                },
+                {
+                    "questionText": "Banānu transportēšanai izmanto:",
+                    "answerList": {"kuģa kravas telpas vai arī jūras konteinerus": true, "velosipēdus un slidas": false},
+                    "explanationText": "Iepakoti kartona kastēs, banāni tiek ievietoti kuģa kravas telpās vai arī jūras konteineros. Ceļā tie vidēji pavada 20 dienas, tāpēc izmantot velosipēdus nav efektīvi.",
+                    "locationName": "USA3"
                 }
             ],
             "energyQuestionsList":[
                 {
-                    "questionText": "Banans Energy Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
+                    "questionText": "Banānu pārvadāšanā laikā:",
+                    "answerList": {"tiek patērētā elektroenerģija": true, "netiek patērētā elektroenerģija": false},
+                    "explanationText": "Banānus pārvada lielos attālumos, ceļošanas laikā tiem jāizveido piemērotus klimatiskus apstākļus, tām nolūkam pārvadāšanas uzņēmumi izmanto elektroenerģiju.",
                     "answerID": 1,
-                    "locationName": "Denmark"
+                    "locationName": "Greenland"
                 },
                 {
-                    "questionText": "Banans Energy Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
+                    "questionText": "Banānu pārvadāšanā laikā:",
+                    "answerList": {"tiek patērētā elektroenerģija": true, "netiek patērētā elektroenerģija": false},
+                    "explanationText": "Banānus pārvada lielos attālumos, ceļošanas laikā tiem jāizveido piemērotus klimatiskus apstākļus, tām nolūkam pārvadāšanas uzņēmumi izmanto elektroenerģiju.",
                     "answerID": 1,
-                    "locationName": "France"
+                    "locationName": "Brazil"
                 },
                 {
-                    "questionText": "Banans Energy Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "USA2"
+                    "questionText": "Banānu pārvadāšanā laikā:",
+                    "answerList": {"tiek patērētā elektroenerģija": true, "netiek patērētā elektroenerģija": false},
+                    "explanationText": "Banānus pārvada lielos attālumos, ceļošanas laikā tiem jāizveido piemērotus klimatiskus apstākļus, tām nolūkam pārvadāšanas uzņēmumi izmanto elektroenerģiju.",
+                    "answerID": 1,
+                    "locationName": "Africa"
                 }
             ],
             "productQuestionsList":[
                 {
-                    "questionText": "Banans Product Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
+                    "questionText": "Banānus var sastapt:",
+                    "answerList": {"Pārtikas veikalā plauktos": true, "Būvmateriālu veikalā": false},
+                    "explanationText": "Mūsdienās ikviens iedzīvotājs, apmeklējot pārtikas veikalu, plauktā var sastapt banānus, ka arī nopirkt tos.",
                     "answerID": 0,
                     "locationName": "Italy"
                 },
                 {
-                    "questionText": "Banans Product Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "Russia"
+                    "questionText": "Banānus var sastapt:",
+                    "answerList": {"Pārtikas veikalā plauktos": true, "Būvmateriālu veikalā": false},
+                    "explanationText": "Mūsdienās ikviens iedzīvotājs, apmeklējot pārtikas veikalu, plauktā var sastapt banānus, ka arī nopirkt tos.",
+                    "answerID": 0,
+                    "locationName": "India"
                 },
                 {
-                    "questionText": "Banans Product Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
+                    "questionText": "Banānus var sastapt:",
+                    "answerList": {"Pārtikas veikalā plauktos": true, "Būvmateriālu veikalā": false},
+                    "explanationText": "Mūsdienās ikviens iedzīvotājs, apmeklējot pārtikas veikalu, plauktā var sastapt banānus, ka arī nopirkt tos.",
                     "answerID": 0,
-                    "locationName": "Australia"
+                    "locationName": "Russia"
                 }
             ],
             "tourismQuestionsList":[
                 {
-                    "questionText": "Banans Tourism Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
+                    "questionText": "Banānu dabā var sastapt kā:",
+                    "answerList": {"puķi, kas aug katra Latvijas iedzīvotāja dārzā": false, "banānaugu, kurā aug banāni": true},
                     "explanationText": "Explanation text",
                     "answerID": 1,
-                    "locationName": "Canada"
+                    "locationName": "Australia"
                 },
                 {
-                    "questionText": "Banans Tourism Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
+                    "questionText": "Banānu dabā var sastapt kā:",
+                    "answerList": {"puķi, kas aug katra Latvijas iedzīvotāja dārzā": false, "banānaugu, kurā aug banāni": true},
                     "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Africa"
+                    "answerID": 1,
+                    "locationName": "China"
                 },
                 {
-                    "questionText": "Banans Tourism Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
+                    "questionText": "Banānu dabā var sastapt kā:",
+                    "answerList": {"puķi, kas aug katra Latvijas iedzīvotāja dārzā": false, "banānaugu, kurā aug banāni": true},
                     "explanationText": "Explanation text",
-                    "answerID": 0,
-                    "locationName": "Latvia"
+                    "answerID": 1,
+                    "locationName": "Singapore"
                 }
             ],
             "wasteQuestionsList":[
                 {
-                    "questionText": "Banans Waste Question text 1",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
+                    "questionText": "Pēc banānu apēšanas, to miza:",
+                    "answerList": {"nesadalās un veido videi kaitīgas vielas": false, "divu gadu laikā pilnīgi sadalās": true},
+                    "explanationText": "Banānu miza ir videi draudzīgs atkritums. Neskatoties uz to, ka uz pilnīgu pārstrādi vajag 2 gadi, to sadalīšanas pozitīvi ietekmē zemes kvalitāti, reizēm to izmanto ka minerālmēslojumu",
                     "answerID": 0,
-                    "locationName": "Brazil"
+                    "locationName": "Denmark"
                 },
                 {
-                    "questionText": "Banans Waste Question text 2",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
-                    "answerID": 1,
-                    "locationName": "India"
+                    "questionText": "Pēc banānu apēšanas, to miza:",
+                    "answerList": {"nesadalās un veido videi kaitīgas vielas": false, "divu gadu laikā pilnīgi sadalās": true},
+                    "explanationText": "Banānu miza ir videi draudzīgs atkritums. Neskatoties uz to, ka uz pilnīgu pārstrādi vajag 2 gadi, to sadalīšanas pozitīvi ietekmē zemes kvalitāti, reizēm to izmanto ka minerālmēslojumu",
+                    "answerID": 0,
+                    "locationName": "Latvia"
                 },
                 {
-                    "questionText": "Banans Waste Question text 3",
-                    "answerList": {"Answer1": true, "Answer2": false},
-                    "explanationText": "Explanation text",
+                    "questionText": "Pēc banānu apēšanas, to miza:",
+                    "answerList": {"nesadalās un veido videi kaitīgas vielas": false, "divu gadu laikā pilnīgi sadalās": true},
+                    "explanationText": "Banānu miza ir videi draudzīgs atkritums. Neskatoties uz to, ka uz pilnīgu pārstrādi vajag 2 gadi, to sadalīšanas pozitīvi ietekmē zemes kvalitāti, reizēm to izmanto ka minerālmēslojumu",
                     "answerID": 0,
-                    "locationName": "USA3"
+                    "locationName": "France"
                 }
             ]
         }

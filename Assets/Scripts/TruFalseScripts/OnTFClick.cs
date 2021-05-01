@@ -11,6 +11,8 @@ public class OnTFClick: MonoBehaviour
     private float lastHoverTime = -1;
     private Animator myAnimator;
 
+    public bool active = false;
+
     void Start()
     {
         OnClickScript tmpScript = gameObject.GetComponent<OnClickScript>();
@@ -44,8 +46,12 @@ public class OnTFClick: MonoBehaviour
 
     void OnClick()
     {
-        myAnimator.SetTrigger("On Click");
-        StartCoroutine(myQuestionScript.QuestionCallbackDelayed(myValue));
+        if (GlobalVariables.activeForClick)
+        {
+            myAnimator.SetTrigger("On Click");
+            StartCoroutine(myQuestionScript.QuestionCallbackDelayed(myValue));
+            GlobalVariables.activeForClick = false;
+        }
     }
 
 
